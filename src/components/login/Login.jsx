@@ -3,16 +3,17 @@ import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useDispatch } from "react-redux";
-import { schemaLogin } from "../../services/data";
+// import { schemaLogin } from "../../services/data";
 import { actionLoginAsync, loginProviderAsync } from "../../redux/actions/userActions";
 import googleLogo from "../../assets/imgs/gogle_logo.png";
 
 const Login = () => {
   const dispatch=useDispatch()
   const navigate = useNavigate();
-  const {register, handleSubmit, formState: { errors } } = useForm({resolver:yupResolver(schemaLogin)})
+  const {register, handleSubmit, formState: { errors } } = useForm()
+
   const onSubmit = (data) => {
-    
+
     dispatch(actionLoginAsync(data))
   }
 
@@ -36,7 +37,7 @@ const Login = () => {
               {...register("email")}
             />
           </div>
-          <p>{errors.email?.message}</p>
+          {/* <p>{errors.email?.message}</p> */}
           <div label="Password">
             <input
               type="password"
@@ -45,7 +46,7 @@ const Login = () => {
               {...register("password")}
             />
           </div>
-          <p>{errors.password?.message}</p>
+          {/* <p>{errors.password?.message}</p> */}
 
           <button variant="warning" type="submit" className="">
             Iniciar Sesión
