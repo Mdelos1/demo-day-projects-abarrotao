@@ -38,7 +38,7 @@ const Turnos = () => {
           if (result.isConfirmed) {
             Swal.fire({
               title: 'Id tienda',
-              text: `3, 4, 5`,
+              text: `1, 2, 3`,
               input: 'number',
               confirmButtonText: 'Listo!',
             }).then(resp => {
