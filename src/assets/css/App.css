@@ -1,0 +1,32 @@
+/* Login */
+@import url("./styles/login/login.css");
+@import url("./styles/login/signin.css");
+@import url("./styles/login/register.css");
+@import url("./styles/login/verification.css");
+/* navbar y footer */
+@import url("./styles/navbar/navigation.css");
+@import url("./styles/footer/footer.css");
+/* home */
+@import url("./styles/inicio/home/home.css");
+@import url("./styles/inicio/home/card.css");
+@import url("./styles/inicio/home/masInfo.css");
+/* turnos */
+@import url("./styles/inicio/turnos/turnos.css");
+@import url("./styles/inicio/turnos/pedidos.css");
+/* buscar */
+@import url("./styles/inicio/buscar/buscar.css");
+/* perfil */
+@import url("./styles/inicio/perfil/perfil.css");
+
+/* estilo de letras */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}

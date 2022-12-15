@@ -1,0 +1,72 @@
+.turnos {
+  width: 100%;
+  height: 78vh;
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.turnos__all{
+  width: 40%;
+  height: 50%;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: .7rem;
+  overflow-y: auto;
+}
+.turnos__all::-webkit-scrollbar{
+  width: 0;
+}
+.turnos__tienda{
+  padding: .3rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  background-color: #09c7bd55;
+  border-radius: 4px;
+}
+.turnos__info--tienda{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.turnos__info--tienda>p{
+  font-size: 17px;
+  font-weight: 400;
+}
+.turnos__logo{
+  width: 2.7rem;
+  height: 2.7rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+.turnos__boton{
+  background-color: #08aaa2e9;
+  outline: none;
+  border: none;
+  padding: 7px .7rem;
+  border-radius: 4px;
+  font-weight: 600;
+  color: #fff;
+  transition: .8s;
+}
+.turnos__boton:hover{
+  cursor: pointer;
+  background-color: #0c73cd;
+}
+.turnos__boton--ver{
+  padding: 6px 1rem;
+  border-radius: 4px;
+  border: none;
+  background-color: #0a959c;
+  color: #fff;
+  transition: .8s;
+}
+.turnos__boton--ver:hover{
+  cursor: pointer;
+  background-color: #0c73cd;
+}

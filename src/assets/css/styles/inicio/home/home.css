@@ -1,0 +1,30 @@
+.tiendas{
+  width: 100%;
+  height: 78vh;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  align-items: center; 
+}
+
+.tiendas h1{
+  font-size: 40px;
+  color: rgb(15, 1, 45);
+}
+
+.tiendas__cards{
+  width: 80%;
+  height: 80%;
+  margin-top: 3rem;
+  /* outline: 1px solid #000; */
+  padding: 1rem;
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 2.5rem;
+}
+
+.tiendas__cards::-webkit-scrollbar{
+  width: 0%;
+}

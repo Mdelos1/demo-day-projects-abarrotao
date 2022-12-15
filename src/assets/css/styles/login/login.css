@@ -1,0 +1,17 @@
+.login{
+  background-color: #ffffff;
+  width: 100%;
+  height: 91.3vh;
+}
+.login__container{
+  padding: 3rem;
+}
+
+.fa-phone{
+  font-size: 3rem;
+  color: #3e3eff;
+}
+
+.rigistro__yes{
+  color: #3e3eff;
+}

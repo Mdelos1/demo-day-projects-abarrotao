@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+
+.navigation{
+  background-color: #05eaf6;
+  width: 100%;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  padding: 2rem 2rem;
+}
+.navigation__container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 10px 15px rgba(16, 15, 19, 0.886);
+  border-radius: 7px;
+  padding: 0 2rem;
+}
+.navigation_logo{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  color: #000;
+}
+.imgLogoNav{
+  width: 3.3rem;
+  height: 3.3rem;
+  border-radius: 50%;
+  /* outline: 1px solid rgb(183, 181, 181); */
+  box-shadow: 0 0 4px #000;
+}
+.navigation__login{
+  padding-right: 6rem;
+}
+.navigation__login--actions{
+  width: 14rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 19px;
+}
+.navigation__login--actions button{
+  color: aliceblue;
+  text-decoration: none;
+  transition: .7s;
+  padding: 4px 1.2rem;
+  border-radius: 3px;
+  background-color: #13759353;
+  border: none;
+  outline: none;
+  font-size: 19px;
+}
+a{
+  color: aliceblue;
+  text-decoration: none;
+  transition: .7s;
+  padding: 4px 1.2rem;
+  border-radius: 3px;
+  background-color: #13759353;
+}
+.navigation__login--actions button:hover{
+  color: rgb(239, 239, 244);
+  background-color: #129dc7;
+  cursor: pointer;
+}
+a:hover{
+  color: rgb(239, 239, 244);
+  background-color: #129dc7;
+  cursor: pointer;
+}
