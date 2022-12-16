@@ -1,3 +1,30 @@
 .register{
-  background-color: blueviolet;
+  width: 30%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  margin-top: 5rem;
+  margin-left: 33rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(7, 1, 37, 0.532);
+}
+.register input {
+  width: 15rem;
+  height: 2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 5px;
+}
+.register h1 {
+  margin-bottom: 2rem;
+}
+.register button {
+  width: 10rem;
+  height: 5vh;
+  border-radius: 5px;
+  margin-left: 40px;
+  background-color: #53e0d955;
+  
 }

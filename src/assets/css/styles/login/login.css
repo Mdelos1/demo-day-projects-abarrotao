@@ -12,6 +12,45 @@
   color: #3e3eff;
 }
 
-.rigistro__yes{
-  color: #3e3eff;
+.login__container{
+  width: 30%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: 34rem;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(7, 1, 37, 0.532);
+  
+}
+.login__container h1{
+  font-size: 40px;
+  margin-bottom: 2rem;
+}
+.login__container input{
+    width: 18vw;
+    height: 1.5rem;
+    display: flex;
+    margin-bottom: 2rem;
+}
+.login__container button{
+  width: 170px;
+  height: 5vh;
+  border-radius: 5px;
+  background-color: #53e0d955;
+  cursor: pointer;
+}
+.registro__yes{
+  margin-top: 2rem;
+  background-color: #53e0d955;
+  color: black;
+  border: 20px;
+  border-radius: 15px;
+}
+.login__container img{
+  position: relative;
+  top: 10px;
 }

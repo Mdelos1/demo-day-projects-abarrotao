@@ -52,9 +52,8 @@ const Login = () => {
             Iniciar Sesión
           </button>
           <img src={googleLogo} alt="Google" style={{width: 50, marginLeft: 30}} onClick={handleLoginGoogle} />
-          <i className="fa-solid fa-phone" onClick={handleLoginPhone}></i>
         </form>
-        <Link to="/Register" className="rigistro__yes">¿Desea crear una cuenta?</Link>
+        <Link to="/Register" className="registro__yes" id="register_btn">¿Desea crear una cuenta?</Link>
       </div>
     </div>
 

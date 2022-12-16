@@ -97,7 +97,7 @@ const Register = () => {
           <div label="Confirm Passwor" className="">
             <input
               type="password"
-              placeholder="repeatPassword"
+              placeholder="repeat Password"
               {...register("repeatPassword")}
             />
             {/* <div className="">
